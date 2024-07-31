@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/stardust-doc/",
   title: "Stardust 文档",
   description: "A Stardust Site",
   themeConfig: {
