@@ -4,12 +4,12 @@ import { set_sidebar } from "../utils/auto-gen-sidebar.mjs";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/stardust-doc/",
-  head: [["link", { rel: "icon", href: "/stardust-doc/logo.svg" }]],
+  head: [["link", { rel: "icon", href: "/stardust-doc/pekamini.svg" }]],
   title: "Oahgnoh的文档网站",
   description: "A Oahgnoh Site",
   themeConfig: {
     // 配置logo位置，public目录
-    logo: "/logo.svg",
+    logo: "/peka.svg",
 
     // 顶部导航栏配置
     nav: [
@@ -31,7 +31,15 @@ export default defineConfig({
 
     // 自动生成左侧侧边栏
     sidebar: {
-      "/docs": set_sidebar("/docs")
+      "/docs/教程": set_sidebar("/docs/教程"),
+      "/docs/开发规范": set_sidebar("/docs/开发规范"),
+      "/docs/学习笔记7月": set_sidebar("/docs/学习笔记7月"),
+      "/docs/学习笔记8月": set_sidebar("/docs/学习笔记8月"),
+      "/docs/analysis": set_sidebar("/docs/analysis"),
+      "/docs/back-end": set_sidebar("/docs/back-end"),
+      "/docs/efficiency": set_sidebar("/docs/efficiency"),
+      "/docs/pit": set_sidebar("/docs/pit"),
+      "/docs/workflow": set_sidebar("/docs/workflow")
     },
     // 右侧导航栏配置
     outlineTitle: "文章目录",
@@ -43,8 +51,7 @@ export default defineConfig({
       next: "下一页"
     },
 
-
-
+    // 右上角链接
     socialLinks: [
       {
         icon: {
