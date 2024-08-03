@@ -7,7 +7,7 @@ hero:
   text: "构建知识库"
   tagline: 好记性不如烂笔头
   image:
-    src: /pekastudy.svg
+    src: /peka.svg
     alt: 背景图
   actions:
     - theme: brand

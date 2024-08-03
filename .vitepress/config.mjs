@@ -4,7 +4,7 @@ import { set_sidebar } from "../utils/auto-gen-sidebar.mjs";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/stardust-doc/",
-  head: [["link", { rel: "icon", href: "/stardust-doc/pekamini.svg" }]],
+  head: [["link", { rel: "icon", href: "/stardust-doc/peka.svg" }]],
   title: "Oahgnoh的文档网站",
   description: "A Oahgnoh Site",
   themeConfig: {
