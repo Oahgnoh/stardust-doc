@@ -1,4 +1,4 @@
-RESTful API 设计规范
+# RESTful API 设计规范
 
 REST全称是Representational State Transfer，中文意思是`表述性状态转移`。REST指的是一组架构约束条件和原则。 如果一个架构符合REST的约束条件和原则，我们就称它为RESTful架构。
 

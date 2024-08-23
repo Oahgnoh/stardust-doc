@@ -32,7 +32,7 @@ elasticsearch.yml配置:xpack.security.enabled:把true改成false
 
 3、打开bin目录，双击下面的文件启动Elasticsearch，访问`localhost:9200`
 
-4、安装kibana，修改配置如下，启动，访问`http://localhost:5601/app/kibana#/dev_tools/console`
+4、安装kibana，修改配置如下，启动，访问http://localhost:5601/app/kibana#/dev_tools/console
 
 ```
 server.port: 5601
@@ -56,7 +56,7 @@ i18n.locale: "zh-CN" # 页面使用中文
 
 Elassitiesearch 是面向文档型数据库，一条数据在这里就是一个文档。为了方便大家理解，我们将 Elastlesearch 里存储文档数据和关系型数据库MySQL存储数据的概念进行一个类比
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/ad3f324d5535282c37183741aa571854.png)
+https://i-blog.csdnimg.cn/blog_migrate/ad3f324d5535282c37183741aa571854.png
 
 ES 里的 Index 可以看做一个库，而 Types 相当于表， Documents 则相当于表的行。这里 Types 的概念已经被逐渐弱化， Elasticsearch 6.X 中，一个 index 下已经只能包含一个type， Elasticsearch 7.X 中, Type 的概念已经被删除了。
 
