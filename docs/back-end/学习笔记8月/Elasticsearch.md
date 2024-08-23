@@ -32,7 +32,7 @@ elasticsearch.yml配置:xpack.security.enabled:把true改成false
 
 3、打开bin目录，双击下面的文件启动Elasticsearch，访问`localhost:9200`
 
-4、安装kibana，修改配置如下，启动，访问http://localhost:5601/app/kibana#/dev_tools/console
+4、安装kibana，修改配置如下，启动，访问`http://localhost:5601/app/kibana#/dev_tools/console`
 
 ```
 server.port: 5601
