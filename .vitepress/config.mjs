@@ -15,29 +15,29 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       {
-        text: "Back End",
+        text: "后端学习",
         items: [
           { text: "学习笔记7月", link: "/docs/back-end/学习笔记7月/0322", },
           { text: "学习笔记8月", link: "/docs/back-end/学习笔记8月/Elasticsearch" },
         ],
       },
       {
-        text: "Code Snippets",
+        text: "代码片段",
         items: [
           { text: "常用正则", link: "/docs/code-snippets/regexp", },
         ],
       },
       {
-        text: "Tool",
+        text: "提效工具",
         items: [
           { text: "在线工具", link: "/docs/efficiency/online-tools", },
         ],
       },
     ],
 
-    // 自动生成左侧侧边栏
+    // 自动生成 左侧侧边栏
     sidebar: {
-      "/docs/教程": set_sidebar("/docs/教程"),
+      "/docs/course": set_sidebar("/docs/course"),
       "/docs/back-end": set_sidebar("/docs/back-end"),
       "/docs/code-snippets": set_sidebar("/docs/code-snippets"),
       "/docs/efficiency": set_sidebar("/docs/efficiency")

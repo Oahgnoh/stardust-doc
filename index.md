@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: Markdown教程
-      link: /docs/教程/Markdown教程
+      link: /docs/course/Markdown教程
     - theme: alt
-      text: Markdown教程入口2
-      link: /docs/教程/Markdown教程
+      text: 本地启动文档
+      link: /docs/course/快速开始
 
 features:
   - icon: 🐼
@@ -28,7 +28,7 @@ features:
     title: 代码片段
     details: 一组可重复使用的、经过测试的、可粘贴的代码片段
     link: /docs/code-snippets/regexp
-    linkText: 常用工具库
+    linkText: 常用代码库
 
   - icon: 🥑
     title: 提效工具

@@ -3,7 +3,7 @@ description: oahgnoh
 aside: false
 ---
 
-# xuhh <Badge text="xuhh" /> <Badge text="xuhh2001" />
+# <Badge text="xuhh2001" />
 
 ```sh:no-line-numbers
 吾志所向，一往无前。
